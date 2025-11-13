@@ -51,5 +51,21 @@ public class StarWar {
 
 
     }
+    @Test
+    public void validateCharactersInfo(){
+        RestAssured.baseURI = "https://swapi.dev";
+        RestAssured.basePath = "api/people/4";
+        Response response = RestAssured.given().accept("application/json").when().get()
+                .then().log().body().statusCode(200).extract().response();
+
+        JsonPath deserializeResponse = response.jsonPath();
+
+        Assert.assertEquals(deserializeResponse.getString("name"),"Darth Vader");
+        Assert.assertEquals(deserializeResponse.getString("height"),"202");
+        Assert.assertEquals(deserializeResponse.getString("skin_color"),"white");
+        Assert.assertEquals(deserializeResponse.getString("eye_color"),"yellow");
+        Assert.assertEquals(deserializeResponse.getString("gender"),"male");
+
+    }
 
 }
