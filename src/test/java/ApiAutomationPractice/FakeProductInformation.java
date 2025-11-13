@@ -37,6 +37,8 @@ public class FakeProductInformation {
         Map<String,Object> convertedRating = (Map<String, Object>) deserializedResponse.get("rating");
         Assert.assertEquals(convertedRating.get("rate"), 3.9);
 
+        //just adding comments here
+
     }
 
 
