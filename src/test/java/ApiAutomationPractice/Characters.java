@@ -51,6 +51,7 @@ public class Characters {
 
              System.out.println("id: " + deserialized.get(i).get("id"));
              System.out.println("name: " + deserialized.get(i).get("name"));
+             System.out.println("Everything working well");
 
 
          }
