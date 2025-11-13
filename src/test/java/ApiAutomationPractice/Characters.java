@@ -35,6 +35,7 @@ public class Characters {
        Assert.assertEquals(deserialized.get("imageUrl"),"https://thronesapi.com/assets/images/catelyn-stark.jpg");
        Assert.assertEquals(deserialized.get("firstName"),"Catelyn");
        Assert.assertEquals(deserialized.get("lastName"), "Stark");
+       Assert.assertEquals(deserialized.get("age"), "50");
 
    }
 
