@@ -36,6 +36,7 @@ public class Characters {
        Assert.assertEquals(deserialized.get("firstName"),"Catelyn");
        Assert.assertEquals(deserialized.get("lastName"), "Stark");
        Assert.assertEquals(deserialized.get("age"), "50");
+       Assert.assertEquals(deserialized.get("age"), "50");
 
    }
 
@@ -53,6 +54,9 @@ public class Characters {
 
              System.out.println("id: " + deserialized.get(i).get("id"));
              System.out.println("name: " + deserialized.get(i).get("name"));
+             System.out.println("Everything working well");
+             System.out.println("Why it's not working");
+             System.out.println("Why it's not working");
 
              //add comments
 
