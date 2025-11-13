@@ -7,5 +7,10 @@ public class SecondGroupProject {
         System.out.println("First change");
         System.out.println("First change");
         System.out.println("First change");
+
+        System.out.println("Second change");
+        System.out.println("Second change");
+        System.out.println("Second change");
+        System.out.println("Second change");
     }
 }
