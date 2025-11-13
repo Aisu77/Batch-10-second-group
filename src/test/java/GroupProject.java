@@ -16,6 +16,9 @@ public class GroupProject {
             case "french":
                 System.out.println("Bonjour!");
                 break;
+            case "kyrgyz":
+                System.out.println("Salam!");
+                break;
             default:
                 System.out.println("Not found");
                 break;
