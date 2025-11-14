@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello we will practice git conflicts here");
+        System.out.println("Git conflict resolved");
         System.out.println("Hello we will practice git conflicts here");
         System.out.println("Hello we will practice git conflicts here");
         System.out.println("Hello we will practice git conflicts here");
