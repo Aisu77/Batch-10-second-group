@@ -16,6 +16,5 @@ public class git branHello {
         System.out.println("Hello we will practice git conflicts here");
         System.out.println("Hello we will practice git conflicts here");
         System.out.println("Hello we will practice git conflicts here");
-        System.out.println("Hello we will practice git conflicts here");
     }
 }
