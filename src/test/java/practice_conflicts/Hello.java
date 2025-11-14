@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
+
         System.out.println("Hello we will practice git conflicts ");
         System.out.println("Hello we will practice git conflicts ");
         System.out.println("conflict");
@@ -31,6 +32,8 @@ public class Hello {
             System.out.println("This is Aisuluu's change");
             System.out.println("This is Aisuluu's change");
             System.out.println("This is Aisuluu's change");
-        }
+
+        System.out.println("Guys this is my second merge");
+
     }
-}
+}}
