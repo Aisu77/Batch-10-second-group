@@ -1,5 +1,6 @@
 package practice_conflicts;
 
+import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
@@ -14,7 +15,6 @@ public class Hello {
         System.out.println("Hello we will practice git conflicts ");
         System.out.println("conflict");
         System.out.println("Hello we will practice git conflicts here");
-        System.out.println("Resolving conflict for the branch");
         System.out.println("Hello we will practice git conflicts here");
         System.out.println("Hello we will practice git conflicts here");
         System.out.println("Hello we will practice git conflicts here");
