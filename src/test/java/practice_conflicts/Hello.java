@@ -9,8 +9,7 @@ public class Hello {
         System.out.println("Hello we will practice git conflicts ");
         System.out.println("conflict");
         System.out.println("Hello we will practice git conflicts here");
-        System.out.println("Hello we will practice git conflicts here");
-        System.out.println("Hello we will practice git conflicts here");
+
 
         int a = 10;
         int b = 20;
